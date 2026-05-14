@@ -1,0 +1,21 @@
+{
+  "name": "ternroam-pricing-fetcher",
+  "version": "1.0.0",
+  "description": "Real-time eSIM pricing fetcher service for Ternroam",
+  "main": "pricing-fetcher.js",
+  "scripts": {
+    "start": "node pricing-fetcher.js",
+    "dev": "nodemon pricing-fetcher.js",
+    "test": "node test-fetcher.js"
+  },
+  "keywords": ["esim", "pricing", "api", "ternroam"],
+  "author": "Ternroam",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
